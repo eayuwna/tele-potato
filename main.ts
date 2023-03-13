@@ -13,10 +13,10 @@ radio.setGroup(1)
 Alien = -1
 basic.forever(function () {
     if (Alien == 0) {
-    	
+        basic.showIcon(IconNames.Skull)
     }
     if (Alien < 0) {
-    	
+        basic.clearScreen()
     }
     if (Alien > 0) {
         basic.showIcon(IconNames.Ghost)
